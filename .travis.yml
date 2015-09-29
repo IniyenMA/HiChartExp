@@ -1,9 +1,4 @@
-Enter file contents herelanguage: csharp
+language: csharp
 solution: HiChartExp.sln
-
-install:
-  - sudo apt-get install nunit-console
-  - nuget restore HiChartExp.sln
-
 script:
-  - xbuild HiChartExp.sln
+  - xbuild /p:Configuration=Release HiChartExp.sln
