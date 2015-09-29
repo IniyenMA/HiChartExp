@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "HiChartExp"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-HiChartExp-e2396be5-b847-4414-9a02-531b694f1731;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
